@@ -71,10 +71,17 @@
 							"script": {
 								"id": "5ff47551-6d56-4fbc-b520-3feea8829fbb",
 								"exec": [
-									""
+									"console.log(\"test\")"
 								],
 								"type": "text/javascript",
 								"packages": {}
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"packages": {},
+								"type": "text/javascript"
 							}
 						}
 					],
