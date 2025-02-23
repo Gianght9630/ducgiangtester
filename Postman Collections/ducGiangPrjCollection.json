@@ -9,7 +9,7 @@
 			"name": "commonFunction",
 			"item": [
 				{
-					"name": "Dummy request",
+					"name": "Dummy request github",
 					"event": [
 						{
 							"listen": "prerequest",
