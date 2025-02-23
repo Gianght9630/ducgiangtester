@@ -1,10 +1,10 @@
 {
 	"info": {
-		"_postman_id": "9f9d4fa8-5c46-4678-92cd-655f7fd1ff34",
-		"name": "ducgiangPrj",
+		"_postman_id": "24622b32-34b1-4b2b-b887-7a92de802670",
+		"name": "ducgiangPrj Copy",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "7178995",
-		"_collection_link": "https://crimson-robot-480937.postman.co/workspace/Auto-_API-_testing~5ec8bec7-fbb9-4d9b-a9ca-e872bb84f976/collection/7178995-9f9d4fa8-5c46-4678-92cd-655f7fd1ff34?action=share&source=collection_link&creator=7178995"
+		"_collection_link": "https://crimson-robot-480937.postman.co/workspace/Auto-_API-_testing~5ec8bec7-fbb9-4d9b-a9ca-e872bb84f976/collection/7178995-24622b32-34b1-4b2b-b887-7a92de802670?action=share&source=collection_link&creator=7178995"
 	},
 	"item": [
 		{
@@ -321,7 +321,10 @@
 									"listen": "test",
 									"script": {
 										"exec": [
-											"console.log(\"hate\")"
+											"console.log(\"hate\")\r",
+											"if (true){\r",
+											"    console.log(\"never\")\r",
+											"}"
 										],
 										"type": "text/javascript",
 										"packages": {}
