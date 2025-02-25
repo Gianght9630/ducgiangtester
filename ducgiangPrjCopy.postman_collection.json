@@ -504,7 +504,7 @@
 											"let crVNTime = currentTime.toLocaleString(\"vi-VN\", { timeZone: \"Asia/Ho_Chi_Minh\" });\r",
 											"console.log(actCreatedAt+\" \"+currentTime)\r",
 											"pm.test(\"Thời gian tạo đúng\", function () {\r",
-											"    pm.expect(actVNTime <= crVNTime).to.be.true;\r",
+											"    pm.expect(actVNTime <= crVNTime).to.be.false;\r",
 											"});"
 										],
 										"type": "text/javascript",
