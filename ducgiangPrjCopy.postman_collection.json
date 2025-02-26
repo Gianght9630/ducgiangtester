@@ -11,7 +11,7 @@
 			"name": "commonFunction",
 			"item": [
 				{
-					"name": "Dummy",
+					"name": "Dummy request",
 					"event": [
 						{
 							"listen": "prerequest",
